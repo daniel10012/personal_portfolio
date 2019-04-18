@@ -80,7 +80,7 @@ pg_KEY = os.environ["pg_KEY"]
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'rp-portfolio',
+        'NAME': 'personal_portfolio',
         'USER': 'postgres',
         'PASSWORD': pg_KEY,
         'HOST': 'localhost',
